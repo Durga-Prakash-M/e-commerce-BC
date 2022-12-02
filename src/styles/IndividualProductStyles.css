@@ -1,0 +1,41 @@
+.IndividualProduct {
+  display: flex;
+  justify-content: center;
+}
+
+.details {
+  width: 40%;
+  margin-left: 10%;
+}
+.prod-img {
+  width: 38%;
+}
+.add-to-cart-button {
+  width: fit-content;
+  background-color: blue;
+  color: #fff;
+  padding: 1.2%;
+  border-radius: 3px;
+}
+
+.add-to-cart-button:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+  .IndividualProduct {
+    flex-direction: column;
+    align-items: center;
+  }
+  .prod-img {
+    width: 85%;
+  }
+  .details {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .details {
+    margin-left: 30%;
+  }
+}

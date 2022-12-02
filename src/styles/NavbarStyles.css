@@ -1,0 +1,10 @@
+nav ul {
+  display: flex;
+  margin-block-start: 0;
+  padding: 16px;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 16px;
+}
