@@ -8,7 +8,10 @@
   margin-left: 10%;
 }
 .prod-img {
-  width: 38%;
+  width: 40%;
+}
+.prod-img > img {
+  width: 100%;
 }
 .add-to-cart-button {
   width: fit-content;

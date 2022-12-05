@@ -7,7 +7,9 @@ const RouterManager = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/products/:id" element={<IndivdualProduct />} />
+      <Route path="/products">
+        <Route path=":id" element={<IndivdualProduct />} />
+      </Route>
     </Routes>
   );
 };
