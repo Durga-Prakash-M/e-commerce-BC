@@ -24,6 +24,25 @@
 .add-to-cart-button:hover {
   cursor: pointer;
 }
+.addRemove {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.addRemove > div {
+  margin: 2%;
+  padding: 2%;
+}
+
+.remove,
+.add {
+  cursor: pointer;
+  background-color: blue;
+  color: #fff;
+  border-radius: 3px;
+}
+
 @media only screen and (max-width: 767px) {
   .IndividualProduct {
     flex-direction: column;
