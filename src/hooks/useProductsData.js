@@ -6,7 +6,9 @@ const fetchProducts = () => {
   );
 };
 const useProductsData = () => {
-  return useQuery("products", fetchProducts);
+  return useQuery("products", fetchProducts, {
+    refetchInterval: false,
+  });
 };
 
 export default useProductsData;

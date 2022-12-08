@@ -5,7 +5,6 @@ import "../styles/catalogItemStyles.css";
 const CatalogItem = ({ Item }) => {
   const navigate = useNavigate();
   const routeChange = () => {
-    console.log(Item.id);
     let path = `/products/${Item.id}`;
     navigate(path);
   };

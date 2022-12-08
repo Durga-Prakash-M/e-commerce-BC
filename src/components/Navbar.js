@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/NavbarStyles.css";
 import Cart from "./cart/Cart";
+
 const Navbar = () => {
   const NavLinkStyles = ({ isActive }) => {
     return {
